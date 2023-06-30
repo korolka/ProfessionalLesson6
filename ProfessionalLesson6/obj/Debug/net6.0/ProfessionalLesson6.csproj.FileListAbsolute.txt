@@ -1,0 +1,15 @@
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\bin\Debug\net6.0\ProfessionalLesson6.exe
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\bin\Debug\net6.0\ProfessionalLesson6.deps.json
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\bin\Debug\net6.0\ProfessionalLesson6.runtimeconfig.json
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\bin\Debug\net6.0\ProfessionalLesson6.dll
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\bin\Debug\net6.0\ProfessionalLesson6.pdb
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.csproj.AssemblyReference.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.AssemblyInfoInputs.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.AssemblyInfo.cs
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.dll
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\refint\ProfessionalLesson6.dll
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.pdb
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ProfessionalLesson6.genruntimeconfig.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\ProfessionalLesson6\obj\Debug\net6.0\ref\ProfessionalLesson6.dll

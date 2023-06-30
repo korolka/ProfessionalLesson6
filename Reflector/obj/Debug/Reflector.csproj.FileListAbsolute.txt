@@ -1,0 +1,16 @@
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\bin\Debug\Reflector.exe.config
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\bin\Debug\Reflector.exe
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\bin\Debug\Reflector.pdb
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.csproj.AssemblyReference.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\MainWindow.g.cs
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\App.g.cs
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector_MarkupCompile.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector_MarkupCompile.lref
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\MainWindow.baml
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.g.resources
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.Properties.Resources.resources
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.csproj.GenerateResource.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.exe
+C:\Users\Vlad\source\repos\ProfessionalLesson6\Reflector\obj\Debug\Reflector.pdb
