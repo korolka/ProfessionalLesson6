@@ -22,15 +22,9 @@ namespace Reflector
     /// </summary>
     public partial class MainWindow : Window
     {
-        Assembly assembly;
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void OpenItem_Click(object sender, RoutedEventArgs e)
@@ -39,44 +33,43 @@ namespace Reflector
 
             try
             {
-                OpenFileDialog openFile = new OpenFileDialog();
-                openFile.ShowDialog(this);
-                string path = openFile.FileName;
-                assembly = Assembly.LoadFrom(path);
+                Assembly assembly = Assembly.LoadFrom(path.Text);
                 stringBuilder.Append("СБОРКА    " + path + "  -  УСПЕШНО ЗАГРУЖЕНА" + Environment.NewLine + Environment.NewLine);
                 text.Text = stringBuilder.ToString();
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+                var types = assembly.GetTypes();
 
-            stringBuilder.Append("СПИСОК ВСЕХ ТИПОВ В СБОРКЕ:     " + assembly.FullName + Environment.NewLine + Environment.NewLine);
-            var types = assembly.GetTypes();
-
-            foreach (var type in types)
-            {
-                stringBuilder.Append("Тип:  " + type + Environment.NewLine);
-                var methods = type.GetMethods();
-                if (methods != null)
+                foreach (var type in types)
                 {
-                    foreach (var method in methods)
+                    stringBuilder.Append("Тип:  " + type + Environment.NewLine);
+                    var methods = type.GetMethods();
+                    if (methods != null)
                     {
-                        string methStr = "Метод:" + method.Name + "\n";
-                        var methodBody = method.GetMethodBody();
-                        if (methodBody != null)
+                        foreach (var method in methods)
                         {
-                            var byteArray = methodBody.GetILAsByteArray();
-
-                            foreach (var b in byteArray)
+                            string methStr = "Метод:" + method.Name + "\n";
+                            var methodBody = method.GetMethodBody();
+                            if (methodBody != null)
                             {
-                                methStr += b + ":";
+                                var byteArray = methodBody.GetILAsByteArray();
+
+                                foreach (var b in byteArray)
+                                {
+                                    methStr += b + ":";
+                                }
                             }
+                            stringBuilder.Append(methStr + Environment.NewLine);
                         }
-                        stringBuilder.Append(methStr + Environment.NewLine);
                     }
                 }
+                text.Text = stringBuilder.ToString();
             }
+            catch (Exception ex)
+            {
+                text.Text = ex.Message;
+                return;
+            }
+
+
 
         }
 

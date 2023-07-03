@@ -5,15 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Reflector"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="800">
     <Grid>
-        <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_File" FontSize="20" Click="MenuItem_Click">
-                <MenuItem Header="_Open" Click="OpenItem_Click" />
-                <Separator />
-                <MenuItem Header="_Exit"  Click="MenuItem_Click_1" />
-            </MenuItem>
-            <TextBox x:Name="text" TextWrapping="Wrap" Text="TextBox" Width="762" Height="396"/>
-        </Menu>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="path" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="666" Text="C:\Windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll"/>
+        <TextBox x:Name="text" Margin="10,41,124,10" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
+        <Button Content="Load" HorizontalAlignment="Left" Height="26" Margin="681,10,0,0" VerticalAlignment="Top" Width="109" Click="OpenItem_Click"/>
     </Grid>
 </Window>
